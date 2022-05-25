@@ -1,0 +1,43 @@
+.photos {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.cards1 {
+  /* margin-top: 10px; */
+  border-radius: 10px;
+}
+.cards2 {
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.cards3 {
+  margin-top: 170px;
+  border-radius: 10px;
+}
+.cards4 {
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.cards5 {
+  /* margin-top: 40px; */
+  border-radius: 10px;
+}
+.photos > div > img {
+  padding-top: 10px;
+  border-radius: 10%;
+  width: 94%;
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.2s;
+}
+
+.photos > div > img:hover {
+  /* background-color: yellow; */
+  width: 100%;
+  opacity: 0.6;
+}

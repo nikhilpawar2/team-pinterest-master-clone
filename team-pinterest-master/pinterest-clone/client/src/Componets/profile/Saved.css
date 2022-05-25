@@ -1,0 +1,10 @@
+
+.saved_div{
+    width: 85%;
+    margin: auto;
+    display: grid;
+  
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+
